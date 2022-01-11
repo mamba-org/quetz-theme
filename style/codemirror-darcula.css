@@ -1,0 +1,36 @@
+/*-----------------------------------------------------------------------------
+| Copyright (c) QuantStack
+| Copyright (c) Max Klein
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+/*
+ * Codemirror styling that isn't currently supported by Jupyterlab themes
+ */
+
+.cm-s-jupyter .CodeMirror-activeline-background {
+  background: #323232;
+}
+.cm-s-jupyter .CodeMirror-guttermarker {
+  color: #ffee80;
+}
+.cm-s-jupyter .CodeMirror-guttermarker-subtle {
+  color: #d0d0d0;
+}
+.cm-s-jupyter .CodeMirror-linenumber {
+  color: #cfc5b4;
+}
+.cm-s-jupyter .CodeMirror-matchingbracket {
+  background-color: #3b514d;
+  color: #ffef28 !important;
+  font-weight: bold;
+}
+
+.cm-s-jupyter div.CodeMirror-selected {
+  background: #214283;
+}
+
+.cm-s-jupyter span.cm-type {
+  color: #aabbcc;
+  font-weight: bold;
+}
