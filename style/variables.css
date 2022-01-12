@@ -298,7 +298,7 @@ This theme is largely based on https://github.com/telamonian/theme-darcula by Ma
  
    /* Rendermime styles */
  
-   --jp-rendermime-error-background: rgba(244, 67, 54, 0.28);
+   --jp-rendermime-error-background: var(--jp-error-color0);
    --jp-rendermime-table-row-background: var(--md-grey-900);
    --jp-rendermime-table-row-hover-background: rgba(3, 169, 244, 0.2);
  
