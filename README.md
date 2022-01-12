@@ -5,6 +5,7 @@
 
 A dark-yellow theme for Quetz.
 
+![Quetz theme](https://raw.githubusercontent.com/mamba-org/quetz-theme/main/preview.png)
 
 ## Requirements
 
