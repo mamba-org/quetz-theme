@@ -1,11 +1,12 @@
 {
   "name": "quetz-theme",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A dark-yellow theme for Quetz.",
   "keywords": [
     "jupyter",
     "jupyterlab",
-    "jupyterlab-extension"
+    "jupyterlab-extension",
+    "quetz"
   ],
   "homepage": "https://github.com/mamba-org/quetz-theme",
   "bugs": {
@@ -42,7 +43,8 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.0.0"
+    "@jupyterlab/application": "^3.0.0",
+    "@jupyterlab/apputils": "^3.0.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
@@ -60,6 +62,11 @@
     "style/*.css"
   ],
   "jupyterlab": {
+    "extension": true,
+    "themePath": "style/index.css",
+    "outputDir": "quetz_theme/labextension"
+  },
+  "quetz": {
     "extension": true,
     "themePath": "style/index.css",
     "outputDir": "quetz_theme/labextension"
