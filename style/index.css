@@ -21,3 +21,18 @@ pre {
 .jp-FileBrowser-toolbar.jp-Toolbar .jp-Toolbar-item:first-child .jp-ToolbarButtonComponent .jp-icon3 {
   fill: var(--jp-layout-color0);
 }
+
+/* File browser selected icon */
+.jp-DirListing-item.jp-mod-selected .jp-icon-selectable[fill] {
+  fill: var(--jp-layout-color3);
+}
+
+/* Activate switch */
+.jp-switch[aria-checked="true"] .jp-switch-track {
+  background-color: var(--jp-brand-color0);
+}
+
+/* Activated debugger */
+.jp-DebuggerBugButton[aria-pressed="true"] path {
+  fill: var(--jp-brand-color0);
+}

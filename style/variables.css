@@ -126,10 +126,10 @@ This theme is largely based on https://github.com/telamonian/theme-darcula by Ma
     * These will typically go from light to darker, in both a dark and light theme.
     */
  
-   --jp-ui-inverse-font-color0: rgba(30, 33, 36, 1);
-   --jp-ui-inverse-font-color1: rgba(30, 33, 36, 0.8);
-   --jp-ui-inverse-font-color2: rgba(30, 33, 36, 0.5);
-   --jp-ui-inverse-font-color3: rgba(30, 33, 36, 0.3);
+   --jp-ui-inverse-font-color0: #2B2B2B;
+   --jp-ui-inverse-font-color1: #262626;
+   --jp-ui-inverse-font-color2: #181818;
+   --jp-ui-inverse-font-color3: #101010;
  
    /* Content Fonts
     *
@@ -158,7 +158,7 @@ This theme is largely based on https://github.com/telamonian/theme-darcula by Ma
    --jp-content-heading-font-weight: 500;
  
    /* Shades of the default font color */
-   --jp-content-font-color0: #e9e2d9;
+   --jp-content-font-color0: #f7f0e7;
    --jp-content-font-color1: #e9e2d9;
    --jp-content-font-color2: #ccc6bd;
    --jp-content-font-color3: #959088;
@@ -197,12 +197,12 @@ This theme is largely based on https://github.com/telamonian/theme-darcula by Ma
     * theme these would go from light to dark.
     */
  
-   --jp-layout-color0: #1e1b16;
-   --jp-layout-color1: #1e1b16;
-   --jp-layout-color2: #282620;
-   --jp-layout-color3: #332f2a;
-   --jp-layout-color4: #7e7667;
-   --jp-layout-color5: #b3aa99;
+   --jp-layout-color0: #242424;
+   --jp-layout-color1: #2B2B2B;
+   --jp-layout-color2: #333333;
+   --jp-layout-color3: #3B3B3B;
+   --jp-layout-color4: #424242;
+   --jp-layout-color5: #4A4A4A;
  
    /* Inverse Layout
     *
@@ -210,15 +210,15 @@ This theme is largely based on https://github.com/telamonian/theme-darcula by Ma
     * theme these would go from dark to light.
     */
  
-   --jp-inverse-layout-color0: #fffbf7;
-   --jp-inverse-layout-color1: #fffbf7;
-   --jp-inverse-layout-color2: #ebe1cf;
-   --jp-inverse-layout-color3: var(--md-grey-400);
-   --jp-inverse-layout-color4: var(--md-grey-600);
+   --jp-inverse-layout-color0: #FFFFFF;
+   --jp-inverse-layout-color1: #F7F7F7;
+   --jp-inverse-layout-color2: #E5E5E5;
+   --jp-inverse-layout-color3: #DDDDDD;
+   --jp-inverse-layout-color4: #D6D6D6;
  
    /* Brand/accent */
  
-   --jp-brand-color0: #947300;
+   --jp-brand-color0: #f3c00c;
    --jp-brand-color1: #f3c00c;
    --jp-brand-color2: #ffdf8b;
    --jp-brand-color3: #ffefc8;
