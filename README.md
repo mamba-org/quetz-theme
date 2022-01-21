@@ -1,6 +1,6 @@
 # quetz-theme
 
-![Github Actions Status](https://github.com/mamba-org/quetz-theme/workflows/Build/badge.svg)
+[![Github Actions Status](https://github.com/mamba-org/quetz-theme/workflows/Build/badge.svg)](https://github.com/mamba-org/quetz-theme/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mamba-org/quetz-theme/main?urlpath=lab)
 
 A dark-yellow theme for Quetz.

@@ -1,6 +1,6 @@
 import type {
   JupyterFrontEnd,
-  JupyterFrontEndPlugin
+  JupyterFrontEndPlugin,
 } from '@jupyterlab/application';
 
 import { IThemeManager } from '@jupyterlab/apputils';
@@ -19,9 +19,9 @@ const extension: JupyterFrontEndPlugin<void> = {
       name: 'Quetz',
       isLight: false,
       load: () => manager.loadCSS(style),
-      unload: () => Promise.resolve(undefined)
+      unload: () => Promise.resolve(undefined),
     });
-  }
+  },
 };
 
 export default extension;
