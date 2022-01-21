@@ -1,0 +1,6 @@
+{
+    "@jupyterlab/apputils-extension:themes": {
+        "theme": "Quetz",
+        "theme-scrollbars": true
+    }
+}

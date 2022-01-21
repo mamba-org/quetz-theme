@@ -8,6 +8,7 @@
 
         python3 binder/postBuild
 """
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -41,6 +42,11 @@ _("jupyter", "server", "extension", "list")
 # initially list installed extensions to determine if there are any surprises
 _("jupyter", "labextension", "list")
 
+override = ROOT / "overrides.json"
+override_target = Path(os.environ["NB_PYTHON_PREFIX"]) / "share/jupyter/lab/settings" / override.name
+
+override_target.parent.mkdir(parents=True, exist_ok=True)
+override_target.write_bytes(override.read_bytes())
 
 print("JupyterLab with quetz-theme is ready to run with:\n")
 print("\tjupyter lab\n")
