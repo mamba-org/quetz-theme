@@ -27,6 +27,8 @@ def _(*args, **kwargs):
         print("\nERROR", return_code, " ".join(args))
         sys.exit(return_code)
 
+_(sys.executable, "-m", "pip", "install", "-U", "pip")
+
 # verify the environment is self-consistent before even starting
 _(sys.executable, "-m", "pip", "check")
 
