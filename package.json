@@ -1,6 +1,6 @@
 {
   "name": "quetz-theme",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A dark-yellow theme for Quetz.",
   "keywords": [
     "jupyter",
@@ -42,9 +42,8 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.0.0",
-    "@jupyterlab/apputils": "^3.0.0"
-    
+    "@jupyterlab/apputils": "^3.0.0",
+    "@lumino/application": "^1.25.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
