@@ -36,7 +36,7 @@ version = (
     .replace("-alpha.", "a")
     .replace("-beta.", "b")
     .replace("-rc.", "rc")
-) 
+) + ".post1"
 
 setup_args = dict(
     name=name,
